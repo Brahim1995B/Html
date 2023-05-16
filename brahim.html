@@ -6,43 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOMYCODE</title>
     <link rel="icon" href="téléchargement.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-
-            <a href="accueil">accueil</a>
+        <nav>
+            <a href="#accueil">accueil</a>
             <a href="#à propos">à propos</a>
             <a href="#travail">travail</a>
             <a href="#cv">cv</a>
             <a href="#contact">contact</a>
-
+        </nav>
     </header>
 
     <main>
+        <div>
+            <img  id="docimg" src="téléchargement.png" alt="Not Found">
+        </div>
        
-         <img src="téléchargement.png" alt="Not Found">
+         
         <!-- Section Accueil -->
         <section id="accueil">
             <h2>Accueil</h2>
 
             <p>Nous formons la prochaine génération tech aux technologies les plus récentes et aux métiers du futur pour les préparer au monde professionnel et renforcer leur employabilité.</p>
-
-            
-
+            <div id="divAcceuil">
+                
              <video controls muted width="500px">
                 <source src="/GOMYCODE toujours plus proche de vous!.mp4">
             </video>
+
+            </div>
+            
+
         </section>
 <!-- Section A Propos -->
         <section id="à propos">
             <h2>A Propos</h2>
-
+<DIV>
             <ul type="square">
                 <li>Tunis</li>
                 <li>Lac 1</li>
                 <li>Manzah</li>
             </ul>
-
+        </DIV>
+        <div>
             <dl>
                 <dt>Tunis</dt>
                 <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cupiditate pariatur magnam nisi ducimus, repellat commodi cum vel eos distinctio minus recusandae incidunt odio nemo sint quia fugit sit minima!</dd>
@@ -52,9 +60,10 @@
                 <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugit voluptas eius assumenda eum ut quod laboriosam non, nisi modi quae necessitatibus, possimus ullam. Eveniet, ducimus accusamus! Numquam, maxime nesciunt.</dd>
             
             </dl>
-
-                       <iframe width="560" height="500" src="https://youtu.be/T5HkMjgD8ZY"YouTube video player frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
+        </div>
+        <div class="west">
+                       <iframe  width="560" height="500" src="https://youtu.be/T5HkMjgD8ZY"YouTube video player frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>  </section>
 <!-- Section Travail -->
         <section id="travail">
             <h2>Travail</h2>
@@ -78,16 +87,18 @@
 
             </table>
             <br>
-            <img src="BR.png" alt="Not Found">
-                <br>
+            <div class="west">
+            <img  src="BR.png" alt="Not Found">
+        </div><br>
 
         </section>
         <!-- Section CV -->
         <section id="cv">
             <h2>CV</h2>
             <br>
+           <div class="west">
             <img src="CV.png" alt="Not Found">
-                <br>
+        </div>   <br>
         </section>
          <!-- Section Contact -->
         <section id="contact">
